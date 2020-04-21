@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/custom.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--Button with collapse-->
+    <button class="btn btn-primary d-block mb-3" data-toogle="collapse" data-target="#firstcol">
+        More
+    </button>
+    <div class="collapse" id="firstcol">
+        <div class="card">
+            <div class="card-block">
+                    Alot of thimgs asWhen manipulating strings it is often important to access the individual characters that form the string. C++ has the operator [] and the method at() for this purpose. An individual character is always identified by its index, also referred to as subscript, that is, its position in the string. The first character will always have an index value of 0, the second an index of 1, and so on.
+                     Subscript Operator The easiest way to access a single character in the string is to use the subscript operator []. If you define a string as follows, Example: string s = "Let"; the individual characters in the string are:
+                    s[0] == 'L',  s[1] == 'e',  s[2]
+            </div>
+        </div>
+    </div>
+    <!--ACCORDION-->
+    <div id="accordion" role="timer">
+        <div class="card">
+            <div class="card-header" role="timer" id="heading">
+                <h5 class="mb-0"><a href="#seccol" data-parent="#accordion" data-toogle="cpllapse">
+                    Click here
+                </a></h5>
+            </div>
+            <div id="seccol" class="collapse show">
+                <div class="card-block">
+                        Alot of thimgs asWhen manipulating strings it is often important to access the individual characters that form the string. C++ has the operator [] and the method at() for this purpose. An individual character is always identified by its index, also referred to as subscript, that is, its position in the string. The first character will always have an index value of 0, the second an index of 1, and so on.
+                         Subscript Operator The easiest way to access a single character in the string is to use the subscript operator []. If you define a string as follows, Example: string s = "Let"; the individual characters in the string are:
+                        s[0] == 'L',  s[1] == 'e',  s[2] == 't' The last character in a string always has an index of s.length() – 1. You can use the subscript operator to read any character in a string and also to overwrite a character, provided the string was not defined as a constant. Example: char c = s[0]; This statement copies the first character from s to the variable c. In contrast Example: s[s.length() –1] = 'g'; overwrites the last character in the string s. Following this, s will contain the string "Leg".
+                         Inval
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+        <div class="card">
+                <div class="card-header" role="tab" id="heading">
+                    <h5  class="mb-0 pl=-18px"><a href="#collapse1"
+                        data-parent="#accordion" data-toogle="collapse">
+                        Collapse Two
+                    </a></h5>
+                </div>
+    
+                <div id="collapse2" class="collapse show"><!--You can remove the 'show' when i ave jquery to make it dropdown by itself-->
+                    <div class="card-block">
+                            I am big fat spoon looking for food to digged into<br>
+                            According to WHO in 1988 pollution causes most of the depletion of the ozone
+                            layer
+    
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    <div class="card-header" role="tab" id="heading">
+                        <h5  class="mb-0"><a href="#collapse3"
+                        data-parent="#accordion" data-toogle="collapse">
+                        Collapse Three
+                        </a></h5>
+                    </div>
+        
+                    <div id="collapse1" class="collapse show"><!--You can remove the 'show' when i ave jquery to make it dropdown by itself-->
+                        <div class="card-block">
+                                I am big fat spoon looking for food to digged into<br>
+                                According to WHO in 1988 pollution causes most of the depletion of the ozone
+                                layer
+        
+                        </div>
+                    </div>
+                </div>
+    </div>
+</body>
+</html>

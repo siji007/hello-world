@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" href="css/css/bootstrap-grid.css">
+    <style>
+        #hp{
+            background: #f4f4f4;
+            height: 250px;
+        }
+
+        #hl{
+            border:1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="display-3 text-center">FLEX BOX!</h1>
+        <div class="container">
+            <div class="row"> 
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-primary btn-block
+                        dropdown-toggle" type="button" data-toggle="dropdown">
+                         2: Utilities
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item"
+                            href="#">2.2 Basic typography
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <!--FLEX ROW & FLEX ITEMS-->
+    <div class="container">
+        <!--flex-row will still make it default it won't change anything-->
+    <div class="d-flex flex-row " id="hp">
+        <div class="p-4" id="hl">Flex Item</div>
+        <div class="p-4" id="hl">Flex Item</div>
+        <div class="p-4  " id="hl">Flex Item</div>
+    </div>
+    <br><br>
+    <!--FLEX ROW REVERSE-->
+    <div class="d-flex flex-row-reverse" id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4"id="hl">Flex Item</div>
+    </div>
+    <br><br>
+    <!--Justify content-->
+    <div class="d-flex flex-row justify-content-start" id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4"id="hl">Flex Item</div>
+    </div>
+    <br><br>
+
+    <div class="d-flex flex-row justify-content-center" id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4  " id="hl">Flex Item</div>
+    </div>
+    <br><br>
+
+    <div class="d-flex flex-row justify-content-end " id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+    </div>
+    <br><br>
+
+    <div class="d-flex flex-row justify-content-around" id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4  " id="hl">Flex Item</div>
+    </div>
+
+    <br><br>
+    <div class="d-flex flex-row justify-content-between" id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4  " id="hl">Flex Item</div>
+    </div>
+    <br><br>
+
+    <!--FLEX CONTAINER/FLEX COLOUMN-->
+    <div class="d-flex flex-column" id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4  " id="hl">Flex Item</div>
+    </div>
+    <br><br>
+
+    <div class="d-flex flex-column-reverse" id="hp"><!--start from the bottom-->
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4  " id="hl">Flex Item</div>
+    </div>
+    <br><br>
+    <!--VERTICAL ALIGN ITEMS-->
+    <div class="d-flex flex-row align-items-start" id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="item p-4" id="hl">Flex Item</div>
+            <div class="item p-4  " id="hl">Flex Item</div>
+    </div>
+    <br><br>
+    <!--VERTICAL ALIGN ITEMS-->
+    <div class="d-flex flex-row align-items-center" id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4  " id="hl">Flex Item</div>
+    </div>
+    <br><br>
+    <!--VERTICAL ALIGN ITEMS-->
+    <div class="d-flex flex-row align-items-end" id="hp">
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4" id="hl">Flex Item</div>
+            <div class="p-4  " id="hl">Flex Item</div>
+    </div>
+    <br><br>
+<!--VERTICAL ALIGN ITEMS-->
+    <div class="d-flex flex-row align-items-baseline" id="hp"><!--baseline is basically the default-->
+           <div class="p-4" id="hl">Flex Item</div>
+           <div class="p-4" id="hl">Flex Item</div>
+           <div class="p-4  " id="hl">Flex Item</div>
+    </div>
+    <br><br>
+<!--VERTICAL ALIGN ITEMS-->
+    <div class="d-flex flex-row align-items-stretch" id="hp">
+          <div class="p-4" id="hl">Flex Item</div>
+          <div class="p-4" id="hl">Flex Item</div>
+          <div class="p-4" id="hl">Flex Item</div>
+    </div>
+    <br><br>
+<!--RESPONSIVE VERTICAL ALIGN ITEMS-->
+    <div class="d-flex flex-row align-items-md-center align-items-sm-end" id="hp">
+          <div class=" p-4" id="hl">Flex Item</div>
+          <div class="p-4" id="hl">Flex Item</div>
+          <div class="p-4" id="hl">Flex Item</div>
+    </div>
+    <br><br>
+<!-- ALIGN SELF-->
+<div class="d-flex flex-row" id="hp">
+        <div class="p-4 align-self-start" id="hl">Flex Item</div>
+        <div class="p-4 align-self-end" id="hl">Flex Item</div>
+        <div class="p-4 align-self-baseline" id="hl">Flex Item</div>
+        <div class="p-4 align-self-center" id="hl">Flex Item</div>
+        <div class="p-4 align-self-stretch" id="hl">Flex Item</div>
+  </div>
+  <br><br>
+<!--RESPONSIVE ALIGNSELF-->
+  <div class="d-flex flex-row align-items-md-center align-items-sm-end" id="hp">
+        <div class="p-4 align-self-start" id="hl">Flex Item</div>
+        <div class="p-4 align-self-end" id="hl">Flex Item</div>
+        <div class="p-4 align-self-baseline" id="hl">Flex Item</div>
+        <div class="p-4 align-self-center" id="hl">Flex Item</div>
+        <div c<lass="p-4 align-self-stretch" id="hl">Flex Item</div>
+  </div>
+  <br><br>
+    
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" href="plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+<style>
+#valid{
+    font-family: open Sans;
+    font-size: 20px;
+}
+#message{
+    font-family: 'Helvetica Neue';
+}
+</style>
+</head>
+<body class="bg-white">
+    <!--FORM-->
+
+<form id="valid" class='py-3 px-4 '>
+       <!-- <div class="container bg-danger w-75 my-5 py-5"> -->
+  <div class="form-group">
+      <i class="fa fa-spinner"></i>
+      <label for="name">Name</label>
+      <input type="text" class="form-control w-25" placeholder="Enter your name" id="name">
+  </div>
+  <div class="form-group">
+        <i class="fa fa-envelope"></i>
+  <label> Email address</label>
+  <input type="text" class="form-control form-control-lg w-25 " placeholder="Enter email address">  
+  <small class="form-text text-muted">Don't share your email details</small>
+</div>
+<div class="form-group">
+        <i class="fa fa-spinner"></i>
+    <label>Input password</label>
+    <input type="password" class="form-control w-25 form-control-lg" id="password" placeholder="Password" readonly>
+</div>
+<div class="form-group">
+        <i class="fa fa-spinner"></i>
+    <label for="gender">Gender</label>
+    <select class='form-control w-25 form-control-lg'id="gender">
+    <option>Male</option>
+    <option>Female</option>
+    </select>
+</div>
+<div class="form-group">
+        <i class="fa fa-spinner"></i>
+   <label for="message">Message</label>
+   <textarea id="message" class="form-control" id="message" rows="3"></textarea>
+</div>
+<div class="form-group">
+    <label for="file">File input</label>
+    <input type="file" class="form-control-file" id="file">
+    <small id="fileHelp" class="form-text text-muted">Max 3mb size</small>
+
+</div>
+
+<fieldset class="form-group">
+    <legend>Services available</legend>
+     <div class="form-check">
+      <label class="form-check-label">
+       <input type="radio" value="option1" class="form-check-input" >
+    Personal
+      </label>
+     </div>
+
+     <div class="form-check">
+      <label>
+        <input type="radio" value="option2" class="form-check-input" checked><!--checked makes it tick automatically -->
+        Commercial Use
+      </label>
+     </div>
+
+</fieldset>
+<div class="form-check">
+ <label class="form-check-label">Sign up now!
+  <input type="checkbox" class="form-check-input">
+ </label>
+</div>
+<button class="btn btn-success mt-3">Submitt</button><br><br>
+
+<!--</div>-->
+<!--Input groups&Addons-->
+
+
+<div class="input-group">
+  <span class="input-group-addon">@</span>
+  <input type="text" class="form-control" placeholder="Username">
+</div>
+
+<div class="input-group">
+ <input type="text" class="form-control" placeholder="Email">
+ <span class="input-group-addon">@something.com</span><!--Suppose to put the something shii togeher with the username-->
+
+</div>
+<div class="input group">
+     <input type="text" class="form-control" placeholder="Search for..">
+     <span class="input-group-addon">Search</span>
+</div>
+</form>
+</body>
+</html>
