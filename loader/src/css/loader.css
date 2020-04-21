@@ -1,0 +1,27 @@
+body{
+    background-color: darkcyan;
+}
+.load-spinner,.load-spinner:after{
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+}
+.load-spinner{
+    position: relative;
+    border-top: 1em solid rgba(244, 244, 244, 0.2);
+    border-right: 1em solid rgba(244, 244, 244, 0.2);
+    border-bottom: 1em solid rgba(244, 244, 244, 0.2);
+    border-left:1em solid #ffffff;
+    transform: translateZ(0);
+    animation: spinner 5.25s infinite linear;
+
+}
+@keyframes spinner{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>Weight Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3"><!--offset-md-3 to align it to the center-->
+                <h1 class="display-4 text-center">Weight Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input type="text" id="IbsInput" class="form-control form-control-lg" placeholder="Enter pounds">
+                    </div>
+                </form>
+                <div id="output">
+                    <!--Grams-->
+                    <div class="card bg-primary mb-2">
+                        <div class="card-block p-3">
+                            <h4 class="">Grams:</h4>
+                            <div id="gramsOutput"></div>
+                        </div>
+                    </div>
+
+                    <!--Kilograms-->
+                    <div class="card bg-success mb-2">
+                        <div class="card-block p-3">
+                            <h4 class="">Kilograms:</h4>
+                            <div id="kiloOutput"></div>
+                        </div>
+                    </div>
+                       
+                    <!--Ounce -->
+                    <div class="card bg-danger mb-2 ">
+                        <div class="card-block p-3">
+                            <h4 class="">Ounce:</h4>
+                            <div id="ounceOutput"></div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    document.getElementById('output').style.visibility = 'hidden';//to make it hidden by default
+    
+    document.getElementById('IbsInput').addEventListener('input', function(e){
+    
+    document.getElementById('output').style.visibility = 'visible';//when you enter the input the event fires off
+    let Ibs = e.target.value;
+    document.getElementById('gramsOutput').innerHTML = Ibs/0.0022046;
+
+    document.getElementById('kiloOutput').innerHTML = Ibs/2.2046;
+
+    document.getElementById('ounceOutput').innerHTML = Ibs*16;
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color: #edeef6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.modal-container{
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    justify-content: center;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vh;
+}
+   .modal-container.show{
+       pointer-events: auto;
+       opacity: 1;
+   }
+
+.button{
+    background-color:#47e386;
+    border-radius:10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.testmodal{
+    background-color: #fff;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+#logo{
+    font-size: 50px;
+    font-family: -apple-system, 'Helvetica Neue', sans-serif;
+}
+#meetContent{
+    color: white;
+    line-height: 29px;
+    font-size: 17px;
+    text-align: justify;
+    
+}
+#meetImg{
+    max-width: 100%;
+    background-size: cover;
+}

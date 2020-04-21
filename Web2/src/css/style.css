@@ -1,0 +1,116 @@
+body{
+    font-family:'Open Sans',sans-serif;
+    margin: 0;
+}
+#build{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 500px;
+}
+#buildContent{
+    
+    word-spacing: 3px;
+    font-size: 20px;
+}
+.overlay{
+    top: 75px;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    min-height: 999px;
+}
+#head1Img{
+    background-image: url('../img/users.jpg') ;
+    background-size: cover;
+    height: 1000px;
+    background-position: center;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#duffy{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#headImg{
+    max-width: 100%;
+}
+#growImg{
+    max-width: 100%;
+    
+}
+#conImg{
+    max-width: 100%;
+}
+#awareImg{
+    max-width: 100%;
+}
+nav{
+    justify-content: space-between;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.img{
+    max-width: 100%;
+}
+body{
+    background-color: papayawhip;
+}
+#button{
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500px;
+    box-shadow: 0 0 5px(rgb )
+}
+header{
+    /*background-image: url('../img/bg.jpg');
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;*/
+}
+
+#started{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#smooth{
+    line-height: 33px; 
+    word-spacing: 3px;
+    transition: word-spacing 6s;
+}
+#GrowTo{
+    line-height:33px;
+    word-spacing:3px;
+    transition: word-spacing 6s,line-height 5s;
+}
+#awareness{
+    line-height: 33px;
+    word-spacing: 3px;
+    transition: word-spacing 6s,line-height 5s;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -140px;
+    padding: 270px 0 100px;
+    background-color: hsl(192, 100%, 9%);
+}
+#ready{
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 40px 0;
+    padding: 60px;
+    border-radius: 15px;
+}

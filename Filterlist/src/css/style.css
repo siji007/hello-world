@@ -1,0 +1,10 @@
+.collection li{
+    list-style-type: none;
+    border:1px solid black;
+}
+.card{
+    border: 1px solid black;
+}
+.collection-item{
+    border: 1px solid black;
+}

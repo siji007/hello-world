@@ -1,0 +1,139 @@
+@import url('https://fonts.googlepis.com/css?family-Barlow/BarlowCondensed:400,700&display = swap');
+#logo{
+    width:10%;
+}
+body{
+    background-color:black; 
+}
+body::after{
+    background-color: red;
+    width: 50vw;
+    height:50vw;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+:root {
+    --red: hsl(0, 100%, 68%);
+    --very-dark-blue:hsl(230,29%,20%);
+    --dark-grayish-blue:hsl(230, 11%, 40%);
+    --greyish-blue:hsl(231,);
+}
+h1,h3,button,nav a{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+p{
+    font-size:1.4em;
+}
+h3 span{
+    background-color: var(--very-dark-blue);
+    padding: 5px 15px;
+}
+h1{
+    font-size: 3em;
+}
+h3{
+    font-weight: 400px;
+    letter-spacing: 2px;
+}
+button{
+    background-color: var(--red);
+    border-radius: 10px;
+}
+#homeImg{
+    max-width: 100%;
+    width: 100%;
+}
+main{
+    margin-top: 50px;
+}
+nav{
+    margin-top:60px;
+}
+.harmbugger{
+    display:none
+}
+#new{
+    background-color:white;
+    border-radius:10px;
+}
+.container > div{
+    flex:1;
+}
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+}
+ul li{
+    margin-left:40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li.log{
+    margin-left: 80px;
+
+}
+ul li.log a{
+    color: var(--dark-grayish-blue);
+}
+/*Wwhat i want the mobile view to show*/
+@media screen and (max-width:768px){
+    body{
+        font-size: 1em;
+    }
+    .harmbugger{
+        display:block;
+        width: 25%;
+       
+    }
+    ul{
+        flex-direction:column;
+        position: absolute;
+        top:10px;
+        left:20px;
+        background-color: white;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        transform: translateX(100%);
+        z-index: 100;
+        width: calc(100% - 40px);
+    }
+    ul li{
+        text-align: center;
+    }
+    ul li.log{
+        margin:40px 0 20px;
+
+    }
+    ul li{
+        margin:16px 0;
+    }
+
+    .icon-close{
+        display:none;
+
+    }
+    .show-nav .icon-close{
+        display:none;
+    }
+    .show-nav .icon-harmbugger{
+        display: none;
+
+    }
+    
+
+}
+
+

@@ -1,0 +1,24 @@
+.navbar{
+    box-shadow: 2px 4px 6px blue;
+    opacity: 0.9;
+    background-color: #fff;
+}
+.primary-overlay{
+    background-color:rgb(19, 140, 170);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position:absolute;
+    left: 0;
+}
+#showcase{
+    background-image: url('../img/monkey.jpg');
+    background-size: cover;
+    position: relative;
+    min-height: 700px;
+  
+}
+#header-text{
+    padding-top: 270px;
+}
