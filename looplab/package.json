@@ -1,0 +1,22 @@
+{
+  "name": "looplab",
+  "version": "1.0.0",
+  "description": "Social UI Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Siji Olaifa",
+  "license": "ISC",
+  "dependencies": {
+    "@types/gulp": "^4.0.6",
+    "@types/gulp-sass": "^4.0.0",
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

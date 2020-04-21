@@ -1,0 +1,5 @@
+when it shows 'plugin/preset file object blahhh' remove the whole query:{presets :['es2015.'react']} cause we alraedy
+have "presets":[@babel/preset-env",@babel/preset-react in the babel file
+
+//to create a new app
+npx create-react-app

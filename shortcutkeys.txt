@@ -1,0 +1,7 @@
+ctrl + tab = new tab
+
+shift + ctrl + tab = move to the next tab like float right
+
+Alt + tab = makes you move to your previous page or a particular file locatin you were on before
+
+

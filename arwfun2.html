@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Getting ready ES6
+    </title>
+    <script>
+        const box = {
+            color:'green',
+            position: 1,
+            clickMe: function(){
+                var self = this;
+                document.querySelector('.green').addEventListener('click',
+                () => {
+                    var str = 'This is a box' + this.position + 'and it is'+
+                    this.color;
+                    alert(str);
+                });
+                
+               
+            }
+            
+        }
+    box.clickMe();
+    </script>
+    <style>
+      div.first{
+          background-color:green;
+          padding: 20px;
+          text-align: center;
+          width: 30%;
+          float:left;
+          
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      div.second{
+          background-color:yellow;
+          border-top-style: 20px; 
+          width:30%;
+          padding: 21px;
+          text-align: center;
+      }
+    </style>
+</head>
+<body>
+    <h1>Just some ES6 Arrow Function</h1>
+    <div class = 'first'>
+        I'm a Developer
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div class = 'second'>
+        I'm a Strong One
+    </div>
+</body>
+<html>
