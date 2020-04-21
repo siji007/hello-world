@@ -1,0 +1,51 @@
+.heady{
+text-align: center;
+
+
+}
+h1.heady{
+    font-size:50px;
+}
+div.first{
+    border-radius: 15px;
+    color: white;
+    background-color:black;
+    padding-top: 55px;
+    
+}
+body{
+    background-color: #cb3c4e
+}
+nav{
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+div.second{
+    background-color:black;
+    color:white;
+    margin:20px;
+    padding: 17px;
+    width:60%;
+}
+ul.fir{
+    border:5px;
+}
+nav.one{
+    text-decoration: none;
+    margin: auto;
+    background-color: yellow;
+    width: 92%;
+    text-transform: uppercase;
+   
+    text-align: center;
+    
+}
+.emi{
+    text-decoration: none;
+    margin:80px;
+    display: inline;
+}
+ul.fir{
+    margin-bottom: 15px;
+}
